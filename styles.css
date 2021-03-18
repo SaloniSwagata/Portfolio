@@ -1,3 +1,9 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+a {
+  text-decoration: none;
+}
 * {
     box-sizing: border-box;
   }
@@ -95,3 +101,32 @@
       overflow-y: auto;
     }
   }
+  #intro{
+    align-self: center;
+    margin-top: 2px;
+    margin-left: 100px;
+  }
+  #name{
+    font-size: 2rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+  }
+  .name-title{
+    color:#ffd335;
+  }
+/*BUTTONS*/
+.button {
+  font-family: 'Poppins';
+  display: inline-block;
+  padding: 0.75rem 2.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #ffdf6c;
+}
+.button:hover {
+  background-color: #ffdf6c;
+  color: #3f3f3f;
+}
