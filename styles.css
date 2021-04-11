@@ -203,6 +203,11 @@ a{
     height: 90%;
     
   }
+  #about_img{
+    float: left;
+    padding-left: 10px;
+    width: 35%;
+  }
   #about_me{
     width: 90%;
     float: left;
